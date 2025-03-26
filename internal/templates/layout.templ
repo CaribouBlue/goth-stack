@@ -1,0 +1,16 @@
+package templates
+
+templ PageWithNavbar() {
+	@Root() {
+		<div
+			class="navbar bg-base-100 shadow-sm"
+		>
+			<a class="btn btn-ghost text-xl">GoTH Template</a>
+		</div>
+		<div
+			class="w-full max-w-5xl p-6"
+		>
+			{ children... }
+		</div>
+	}
+}
