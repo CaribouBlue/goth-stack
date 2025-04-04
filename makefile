@@ -1,3 +1,7 @@
+.PHONY: setup
+setup:
+	sh ./tools/setup.sh
+
 .PHONY: build
 build:
 	templ generate
