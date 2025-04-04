@@ -1,10 +1,10 @@
 package main
 
 import (
+	"goth-stack/internal/logger"
+	"goth-stack/internal/server"
 	"os"
 
-	"github.com/CaribouBlue/goth-stack/internal/logger"
-	"github.com/CaribouBlue/goth-stack/internal/server"
 	"github.com/joho/godotenv"
 	"github.com/rs/zerolog"
 )

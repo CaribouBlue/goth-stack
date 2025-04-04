@@ -1,4 +1,4 @@
-module github.com/CaribouBlue/goth-stack
+module goth-stack
 
 go 1.24.1
 

@@ -1,9 +1,8 @@
 package server
 
 import (
+	"goth-stack/internal/templates"
 	"net/http"
-
-	"github.com/CaribouBlue/goth-stack/internal/templates"
 )
 
 func NewServer() *http.Server {
